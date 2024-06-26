@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #0a0a0a, #3a4452);
+}
+
+.container {
+  background: transparent;
+  box-shadow: 0px 3px 8px #5e5c5c;
+  padding: 8px 15px;
+  border-radius: 16px;
+  border: 1px solid #373536;
+}
+
+input {
+  width: 270px;
+  cursor: pointer;
+  border: none;
+  padding: 24px;
+  margin: 10px;
+  background: transparent;
+  box-shadow: 0px 3px 15px rgb(84, 84, 84, 0.1);
+  font-size: 40px;
+  text-align: right;
+  color: #fff;
+  border-radius: 15px;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+button {
+  border: none;
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  border-radius: 50%;
+  background: transparent;
+  color: #fff;
+  font-size: 20px;
+  box-shadow: -4px -3px 4px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  transition: all 0.3s ease; /* Add smooth transition */
+}
+
+button:hover {
+  transform: scale(1.1); /* Scale up on hover */
+  box-shadow: -3px -3px 1px rgba(67, 66, 66, 0.2); /* Enhance shadow on hover */
+}
+
+.equal-btn {
+  background-color: rgb(255, 123, 0);
+  transition: all 0.3s ease; /* Ensure smooth transition */
+}
+
+.equal-btn:hover {
+  background-color: rgb(255, 140, 0); /* Change background color on hover */
+}
